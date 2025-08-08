@@ -1,0 +1,107 @@
+/* Doctor Theme */
+body {
+    background-color: #f5f5f5;
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 900px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-label {
+    display: block;
+    margin-bottom: 5px;
+    color: #333;
+    font-size: 16px;
+}
+
+.form-control {
+    width: 100%;
+    height: 40px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-size: 16px;
+}
+
+.custom-button button {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 12px 24px;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 18px;
+    transition: background-color 0.3s ease;
+}
+
+.custom-button button:hover {
+    background-color: #0056b3;
+}
+
+.click-for-result {
+    text-align: center;
+    margin-top: 20px;
+}
+
+
+
+
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Navbar background color */
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #007bff;
+    text-align: center;
+
+    text-decoration: none;
+}
+.navbar li{
+    color:#1995AD;
+    padding: 14px 16px;
+    
+}
+
+.navbar li a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Optional: Change text color on hover */
+.navbar li a:hover {
+    color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image:url(../img/ICD-10-Codes-for-Acute-Kidney-Injury.webp);
+    background-size: cover;
+    padding: 0;
+  }
+
+
+  header {
+    background-color: rgba(181, 191, 171, 0.85);
+    color:rgb(188, 42, 42);
+    padding: 0.1px 0;
+    font-family: "brush script";
+    text-align: center;
+  }
