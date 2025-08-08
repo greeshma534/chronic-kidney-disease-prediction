@@ -1,0 +1,219 @@
+.navbar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: #333; /* Navbar background color */
+    overflow: hidden;
+}
+
+.navbar li {
+    float: left;
+}
+
+.navbar li a {
+    display: block;
+    color: #007bff;
+    text-align: center;
+
+    text-decoration: none;
+}
+.navbar li{
+    color:#1995AD;
+    padding: 14px 16px;
+    
+}
+
+.navbar li a:hover {
+    background-color: #555; /* Change background color on hover */
+}
+
+/* Optional: Change text color on hover */
+.navbar li a:hover {
+    color: #fff;
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background-image:url(../img/ICD-10-Codes-for-Acute-Kidney-Injury.webp);
+    background-size: cover;
+    background-position: center;
+    padding: 0;
+    height: 100%;
+    margin: 0;
+  }
+* {box-sizing: border-box;}
+  
+  
+  
+  header {
+    background-color: rgba(181, 191, 171, 0.85);
+    color:rgb(188, 42, 42);
+    padding: 0.1px 0;
+    font-family: "brush script";
+    text-align: center;
+  }
+  
+  .container2 {
+    margin: 200px auto;
+    width: 300px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #a1d6e2b3;
+  }
+  .container {
+    margin: 50px auto; /*space after nav bar*/
+    height: 550px;
+    width: 750px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 5px;
+    background-color:  #555555ab;
+  }
+  .containerb-wrapper {
+    display: flex;
+    justify-content: space-between;
+    margin: 25px auto;
+  }
+  
+  .containerb {
+    flex: 1;
+    border-radius: 10px;
+    background-color: #555555ab;
+    padding: 20px;
+    box-sizing: border-box;
+  }
+  
+  .containerb + .containerb {
+    margin-left: 10px; /* Add space between containers */
+  }
+  
+  .containerb-heading{
+      margin: 0;
+  }
+  
+  .container3 {
+    margin: 50px auto;
+    height: 900px;
+    width: 1750px;
+    border: 1px solid #ccc;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #d096465e;
+    align-content: center;
+  }
+  
+  .container4 {
+    margin: 50px auto;
+    width: 1000px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #d096465e;
+    align-content: center;
+  }
+  
+  input[type="text"], input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type="email"], input[type="email"] {
+    width: 100%;
+    padding: 10px;
+    margin: 8px 0;
+    box-sizing: border-box;
+  }
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 6px;
+    margin-bottom: 16px;
+    resize: vertical;
+  }
+  input[type="submit"] {
+    width: 100%;
+    background-color:#007bff;
+    color: #fff;
+    padding: 10px;
+    border: none;
+    cursor: pointer;
+  }
+  input[type="submit"]:hover {
+    background-color: #2f9a36;
+  }
+  
+  
+  
+  
+  
+  
+  .upload-form label {
+    font-weight: bold;
+    display: block;
+    margin-bottom: 10px;
+  }
+  
+  .upload-form input[type="file"] {
+  display: inline-block;
+  background-color: #007bff;
+  color: #fff;
+  padding: 10px 20px;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-upload {
+    display: inline-block;
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .custom-file-upload:hover {
+    background-color: #0056b3;
+  }
+  
+  .upload-btn {
+    text-align: center;
+    margin-top: 20px;
+  }
+  
+  .upload-btn input[type="submit"] {
+    background-color: #28a745;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .upload-btn input[type="submit"]:hover {
+    background-color: #218838;
+  }
+  
+  
+  
+    .button-like {
+        display: inline-block;
+        padding: 10px 20px;
+        background-color: #007bff;
+        color: #ffffff;
+        text-decoration: none;
+        border: none;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .text-center {
+      text-align: center;
+    }
+
